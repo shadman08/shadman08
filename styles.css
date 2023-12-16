@@ -1,0 +1,77 @@
+/* Reset some default styles and set a background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Style the header with a single background color */
+header {
+    background-color: #ba8759;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style the navigation links with a single color and hover effect */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+/* Style the container for content with a single background color and border */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Style the gallery images with a single color border and hover effect */
+.image {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image img {
+    max-width: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+
+.image p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}
